@@ -1,0 +1,36 @@
+.progressTracker {
+  &__icon {
+    font-size: 16px;
+  }
+
+  &__stepLabel {
+    font-size: 12px;
+    top: 28px;
+  }
+
+  &__connector {
+    height: 1px;
+    background-color: #ccc;
+  }
+
+  &__verticalConnector {
+    width: 1px;
+    background-color: #ccc;
+  }
+}
+
+.iconComplete {
+  color: #20d167;
+}
+
+.iconInProgress {
+  color: #0092d0;
+}
+
+.iconNotStarted {
+  color: #908f99;
+}
+
+.iconCertificate {
+  color: #ffc444;
+}
